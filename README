@@ -1,0 +1,29 @@
+Documentation of Google translate 
+
+1) firstly we are gonna install googletrans library 
+
+//pip install googletrans
+
+
+2) then we are goona textblob library for processing textual data
+
+//pip install textblob
+
+3) Now we are goona make two text boxes in which the one will give us our entered text where as the other one will give us
+the translated text 
+
+4) We are goona define a function translate_it and pass
+
+5)In next step we are making combo boxes where original_combo.current(21) represents the language from the google translate
+
+6) we are goona make a clear box which is goona clear the text
+
+7) Now our Gui is made we are goona put languages now we know google translate has a large no of languages so we are goona put
+this language library values in a python list
+
+8) In our translate_it function we are goona make two block one for from oringial_text and second one to translated_it in which
+we are taking the key values from googletrans library and which help us to translate the text 
+
+9)we are using the textblob so convert our original text into textblob form using it's library so that system can understand
+
+10) translate_text.delete is used to delete any previous translation 
